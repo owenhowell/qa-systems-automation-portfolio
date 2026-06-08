@@ -1,8 +1,12 @@
-# QA Automation Portfolio Overview
+# QA, Systems, and Automation Portfolio
 
-Hi, I’m Owen Howell. I’m focused on QA Automation, API and integration testing, technical process automation, and systems-oriented support work.
+A public overview of my hands-on work in QA automation, API and integration testing, Docker-based environments, systems-oriented troubleshooting, and technical process automation.
 
-My background combines 9+ years of controls-heavy accounting, audit support, payroll, reporting, reconciliation, and process improvement with hands-on technical portfolio work using Python, Robot Framework, Docker/WSL2, OpenAPI/Swagger, REST/JSON APIs, Git/GitHub, PowerShell, Bash, and n8n.
+Hi, I’m Owen Howell. I’m focused on QA automation, API and integration testing, systems reliability, and technical process automation.
+
+My background combines 9+ years of controls-heavy accounting, audit support, payroll, reporting, reconciliation, and process improvement with hands-on technical work using Python, Robot Framework, Docker/WSL2, Docker Compose, REST/JSON APIs, OpenAPI/Swagger, Git/GitHub, PowerShell, Bash, n8n, and LLM-assisted automation.
+
+I’m especially interested in roles where software quality, infrastructure, automation, documentation, security awareness, and business process reliability overlap.
 
 ## Current Focus
 
