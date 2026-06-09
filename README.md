@@ -37,7 +37,8 @@ I’m especially interested in roles where software quality, infrastructure, aut
 ## Featured Project: MLAI Showcase
 
 **Type:** QA automation and integration testing portfolio project  
-**Visibility:** Private demo project, review access available upon request  
+**Visibility:** Private demo project
+**Review format:** Guided walkthrough available upon request  
 **Focus:** Multi-service application testing, API validation, async workflow validation, Docker-based smoke testing
 
 MLAI Showcase is a containerized multi-service portfolio project involving a React UI, gateway, sync and async APIs, worker processes, and repeatable smoke-test environments.
@@ -83,4 +84,4 @@ I’m especially interested in roles where QA, automation, infrastructure, secur
 
 Some demo repositories are kept private to keep the review path controlled and avoid exposing unfinished or unrelated work.
 
-Recruiters and hiring teams may request access to selected demo projects or a guided walkthrough.
+Guided walkthroughs of selected demo projects are available upon request.
