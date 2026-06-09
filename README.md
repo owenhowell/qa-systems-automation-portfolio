@@ -37,7 +37,7 @@ I’m especially interested in roles where software quality, infrastructure, aut
 ## Featured Project: MLAI Showcase
 
 **Type:** QA automation and integration testing portfolio project  
-**Visibility:** Private demo project
+**Visibility:** Private demo project  
 **Review format:** Guided walkthrough available upon request  
 **Focus:** Multi-service application testing, API validation, async workflow validation, Docker-based smoke testing
 
