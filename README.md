@@ -64,7 +64,7 @@ MLAI Showcase is a private demo project used to demonstrate QA automation, API a
 
 This public portfolio includes sanitized screenshots using synthetic local demo data. The screenshots show the application surface, operator workflows, API contract, Dockerized runtime, and automated smoke-test evidence without exposing private repo contents, secrets, local paths, or raw test artifacts.
 
-For a reviewer-friendly overview, see [MLAI Showcase: Project Review Guide](./Walkthrough.md).
+For a reviewer-friendly overview, see [MLAI Showcase: Project Review Guide](./walkthrough.md).
 
 ## Screenshots
 
