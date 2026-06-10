@@ -12,7 +12,7 @@ The screenshots use synthetic local demo data only. They are intended to show th
 | Gateway-routed integration | Browser and smoke-test traffic route through the gateway path, which helps catch rewrite, auth, and streaming issues that direct API calls can miss. | Docker services screenshot, Robot Framework smoke report |
 | API contract validation | The sync API exposes OpenAPI/Swagger documentation for review, audit, threat, assessment, evaluation, and streaming endpoints. | Swagger/OpenAPI screenshot |
 | Async workflow validation | Uploads return durable job identifiers, progress through lifecycle states, and produce result artifacts with confidence and review metadata. | Upload result artifact screenshot, API response validation screenshot |
-| Automated QA coverage | Robot Framework smoke tests validate the gateway-routed stack and include positive and negative integration scenarios. | Robot Framework report, terminal smoke output |
+| Automated QA coverage | CI and local smoke evidence show repeatable verification across UI, API, containerized integration, gateway-routed smoke, and event-backed E2E paths. | Robot Framework report, terminal smoke output, GitHub Actions CI screenshot |
 | Systems reliability mindset | The runtime uses Docker Compose services, health checks, storage readiness indicators, metrics surfaces, and worker-oriented event paths. | Docker Compose service list, API health validation screenshot |
 | Operator workflow depth | The UI includes candidate review, audit review/export, document upload, result inspection, and demo-data cleanup surfaces. | Operations workspace screenshots |
 | Security-aware testing | The project includes role-aware auth concepts, protected operator routes, request traceability, and negative tests for unauthorized or forbidden access. | Walkthrough discussion and smoke-test scope |
@@ -28,6 +28,7 @@ The screenshots use synthetic local demo data only. They are intended to show th
 | Robot smoke report | ![Robot Framework gateway smoke suite passing against the containerized stack](./docs/screenshots/04-robot-smoke-report.png) |
 | Terminal smoke output | ![Local verification run showing the smoke suite completing successfully](./docs/screenshots/05-terminal-smoke-output.png) |
 | Docker services | ![Local Docker Compose stack with UI, gateway, APIs, workers, and supporting services](./docs/screenshots/06-docker-compose-services.png) |
+| CI pipeline | ![GitHub Actions CI run showing passing UI test/build, browser E2E, sync API, async API container, gateway smoke, and event-backed E2E jobs](./docs/screenshots/09-github-actions-ci.png) |
 | Swagger contract | ![Swagger UI contract for sync API endpoints](./docs/screenshots/07-swagger-sync-api.png) |
 | API health validation | ![Local API validation showing sync and async service health and storage readiness](./docs/screenshots/08-api-response-validation.png) |
 
@@ -110,17 +111,19 @@ The project demonstrates practical runtime awareness, not just isolated code sni
 
 ### 6. Automated verification
 
-Review the Robot Framework report and terminal smoke output.
+Review the Robot Framework report, terminal smoke output, and GitHub Actions CI screenshot.
 
 Evidence covered:
 
-- The current smoke suite shows 20 tests passing and 0 failing
-- Smoke validation exercises gateway-routed sync and async behavior
-- Test coverage includes health checks, Swagger availability, API contracts, file upload handling, result retrieval, SSE-related behavior, and negative cases
+- The current smoke suite shows 20 tests passing and 0 failing.
+- Smoke validation exercises gateway-routed sync and async behavior.
+- Test coverage includes health checks, Swagger availability, API contracts, file upload handling, result retrieval, SSE-related behavior, and negative cases.
+- The CI workflow shows passing UI test/build, browser E2E, sync API, async API container, gateway smoke, and event-backed E2E jobs.
+- CI artifacts are produced for smoke and E2E report review.
 
 Reviewer takeaway:
 
-The project includes repeatable integration evidence and does not rely only on manual UI inspection.
+The project includes repeatable local and CI-backed verification evidence. It does not rely only on manual UI inspection.
 
 ### 7. Negative and security-aware test coverage
 
@@ -163,8 +166,8 @@ A short recruiter review can focus on:
 2. Swagger/OpenAPI contract screenshot
 3. Robot Framework smoke report
 4. Docker Compose services screenshot
-5. Resume tie-in: QA automation, API testing, Docker, Robot Framework, and process automation
-
+5. GitHub Actions CI screenshot
+6. Resume tie-in: QA automation, API testing, Docker, Robot Framework, and process automation
 A deeper technical review can cover:
 
 1. Sync threat workflow and API contracts
@@ -194,7 +197,7 @@ Potential next improvements:
 - Broader audit pagination and saved filters
 - Centralized tracing and observability
 - Additional OCR tuning with more realistic noisy-document samples
-- Expanded CI visibility and public screenshot evidence
+- Expanded CI trend history, coverage summaries, and selected sanitized test excerpts
 
 ## Private Demo Review
 
