@@ -58,6 +58,26 @@ Testing coverage includes:
 
 This project demonstrates my ability to test across multiple services, validate backend behavior, document issues clearly, and use repeatable environments to support stronger delivery
 
+## MLAI Showcase Walkthrough Preview
+
+MLAI Showcase is a private demo project used to demonstrate QA automation, API and integration testing, Docker-based environments, systems reliability, and technical process automation.
+
+This public portfolio includes sanitized screenshots using synthetic local demo data. The screenshots show the application surface, operator workflows, API contract, Dockerized runtime, and automated smoke-test evidence without exposing private repo contents, secrets, local paths, or raw test artifacts.
+
+For a reviewer-friendly overview, see [MLAI Showcase: Project Review Guide](./walkthrough.md).
+
+## Screenshots
+
+| Area | Preview |
+| --- | --- |
+| Analyst dashboard | ![React/OpenLayers analyst dashboard with live threat feed, critical-signal banner, map markers, and grounded assistant panel](./docs/screenshots/01-dashboard-threat-map.png) |
+| Operations workspace: upload, review, audit | ![Operations workspace showing document upload, candidate review, and audit export controls](./docs/screenshots/02a-operations-upload-review-audit.png) |
+| Operations workspace: audit and reset controls | ![Operations workspace showing candidate review, audit export, and demo-data reset controls](./docs/screenshots/02b-operations-review-audit-reset.png) |
+| Robot smoke report | ![Robot Framework gateway smoke suite passing against the containerized stack](./docs/screenshots/04-robot-smoke-report.png) |
+| Swagger contract | ![Swagger UI contract for sync API endpoints](./docs/screenshots/07-swagger-sync-api.png) |
+| Docker services | ![Local Docker Compose stack with UI, gateway, APIs, workers, and supporting services](./docs/screenshots/06-docker-compose-services.png) |
+| API health validation | ![Local API validation showing sync and async service health and storage readiness](./docs/screenshots/08-api-response-validation.png) |
+
 ## Process Automation Case Study
 
 In my current work, I built LLM-assisted and n8n-based automation workflows to transform large exports and PDF-derived data into structured QuickBooks IIF imports.
