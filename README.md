@@ -33,6 +33,7 @@ Public evidence includes sanitized screenshots using synthetic local demo data, 
 | Swagger contract | ![Swagger UI contract for sync API endpoints](./docs/screenshots/07-swagger-sync-api.png) |
 | Docker services | ![Local Docker Compose stack with UI, gateway, APIs, workers, and supporting services](./docs/screenshots/06-docker-compose-services.png) |
 | API health validation | ![Local API validation showing sync and async service health and storage readiness](./docs/screenshots/08-api-response-validation.png) |
+| CI pipeline | ![GitHub Actions CI run showing passing UI, API, container, smoke, and event-backed E2E jobs](./docs/screenshots/09-github-actions-ci.png) |
 
 ## Technical Stack
 
