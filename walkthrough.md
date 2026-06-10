@@ -1,4 +1,4 @@
-# MLAI Showcase: Project Review Guide
+# MLAI Showcase: Public Review Guide
 
 MLAI Showcase is a private demo project built to demonstrate QA automation, API and integration testing, systems reliability, and technical process automation. This public guide summarizes what reviewers can evaluate from the screenshots and what I can cover in a guided walkthrough.
 
@@ -157,7 +157,7 @@ This is not presented as a finished production event platform. It demonstrates t
 
 ## Review Options
 
-For a short recruiter screen, I would focus on:
+A short recruiter review can focus on:
 
 1. Dashboard and Operations screenshots
 2. Swagger/OpenAPI contract screenshot
@@ -165,7 +165,7 @@ For a short recruiter screen, I would focus on:
 4. Docker Compose services screenshot
 5. Resume tie-in: QA automation, API testing, Docker, Robot Framework, and process automation
 
-For a technical reviewer, I can go deeper into:
+A deeper technical review can cover:
 
 1. Sync threat workflow and API contracts
 2. Async upload and job-result lifecycle
@@ -198,4 +198,4 @@ Potential next improvements:
 
 ## Private Demo Review
 
-The full MLAI Showcase source remains private so the review path can stay controlled and sanitized. Guided walkthroughs of selected project areas are available upon request.
+Public artifacts are intentionally limited to sanitized screenshots, documentation, and selected review material. Full source review can be handled through a guided walkthrough when appropriate.
