@@ -16,10 +16,10 @@ Public evidence includes sanitized screenshots using synthetic local demo data, 
 
 | Evidence | What it shows |
 | --- | --- |
-| Analyst dashboard | React/OpenLayers UI, live threat feed, map markers, assistant panel |
+| Analyst dashboard | React/OpenLayers UI, live threat feed, map markers, association investigation, and grounded assistant panel |
 | Operations workspace | Async upload, candidate review, audit export, demo cleanup |
 | Robot Framework report | Gateway-routed smoke suite with 20 passing tests |
-| CI pipeline | Successful private demo CI run covering UI test/build, browser E2E, sync API tests, async API container tests, gateway smoke, event-backed E2E, and report artifacts |
+| CI pipeline | Current private demo CI covering UI test/build, browser E2E, sync API tests, async API container tests, gateway smoke, event-backed E2E, and report artifacts |
 | Swagger/OpenAPI | Documented sync API contract |
 | Docker Compose services | Multi-service runtime with UI, gateway, APIs, workers, and supporting services |
 | API health validation | Sync and async health checks, storage readiness, service status |
