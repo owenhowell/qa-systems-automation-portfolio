@@ -51,8 +51,6 @@ My background includes 9+ years in controls-heavy accounting, audit support, pay
 
 ## Demo Access
 
-## Demo Access
-
 MLAI Showcase source remains private so the review path stays controlled, sanitized, and focused. This public repo provides the reviewer-facing overview, screenshots, test/runtime evidence, and walkthrough material. Guided review of selected project areas is available upon request.
 
 For review requests, please reach out through LinkedIn or the contact information on my resume.
